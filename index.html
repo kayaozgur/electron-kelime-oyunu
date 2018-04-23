@@ -6,36 +6,28 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Ege'ye Özel Kelime Oyunu</title>
     <link rel="stylesheet" href="stil.css">
-    
-    
-    
 </head>
 
 <body>
-    
-    <div id="ust">
-        
-    </div>
-    
-    <div id="orta">
-        
-        <div id="ortasol"></div>
-        <div id="ortasag">
+    <div id="container">
+        <div id="form">
+            <input id="klm" type="password" autofocus placeholder="Kelime yada Cümleyi girip başlat a basın">
+            <input id="btn" type="button" value="başlat" onclick="baslat()">
+        </div>
+
+        <div id="alfabe"> </div>
+
+        <div id="kelimeContainer"></div>
+
+        <div id="canvas">
             <canvas id="mycanvas" width="500" height="350"></canvas>
         </div>
-        
     </div>
-
-    <div id="alt">
-
-        <input id="klm" type="password">
-    </div>
-    
-    
-    
 
     <script src="butonlar.js"> </script>
     <script src="canvas.js"> </script>
+
+
 </body>
 
 </html>

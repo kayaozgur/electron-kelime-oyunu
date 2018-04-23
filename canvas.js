@@ -1,5 +1,5 @@
 
-let $=require('jquery')
+let $ = require('jquery')
 
     var mycanvas = document.getElementById("mycanvas");
     var ctx = mycanvas.getContext("2d");

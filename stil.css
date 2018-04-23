@@ -1,16 +1,13 @@
 * {
     padding: 0;
     margin: 0;
-    
 }
 
 div {
-    
     display: block;
 }
 
 body {
-    
     display: -webkit-box;
     -webkit-box-pack: center;
     -webkit-box-orient: vertical;
@@ -24,54 +21,57 @@ button {
     padding: 5px;
     margin: 6px auto;
     font-size: 30px;
+    border-radius: 5px;
 }
 
-#ust {
+#alfabe {
     background-color: black;
     text-align: center;
-   
-   
-
 }
 
-#orta {
+#container {
     display: -webkit-box;
     -webkit-box-orient: vertical;
     -webkit-box-flex: 1;
     margin-top: 20px;
-    
-   
 }
 
-#ortasol {
-
+#kelimeContainer {
     border: 2px solid black;
     text-align: center;
     margin: 10px;
-    
-    
+    text-align: center;
 }
 
-#ortasag {
-  
-width: 100%;
-height: 520px;
--webkit-box-flex: 0;  
-background-color: #fff;
-margin: 10px;
-text-align: center;
+#klm {
+    width: 400px;
+    height: 42px;
+    border-radius: 5px;
+}
 
+#btn {
+    background: chartreuse;
+    height: 42px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+#form {
+    text-align: center;
+    margin: 10px;
+}
+
+#canvas {
+    width: 100%;
+    height: 520px;
+    -webkit-box-flex: 0;
+    background-color: #fff;
+    margin: 10px;
+    text-align: center;
 }
 
 #mycanvas {
     background-color: #fff;
     border: 2px solid #000;
     margin: 5px;
-  
-   
 }
-
-#alt {
-    text-align: center;
-}
-
